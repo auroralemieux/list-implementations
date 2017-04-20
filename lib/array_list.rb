@@ -32,7 +32,8 @@ class ArrayList
   end
 
   def max
-    largest = 0
+    raise "bad things" if @size == 0
+    largest = @storage[0]
     @size.times do |i|
       if @storage[i] > largest
         largest = @storage[i]
