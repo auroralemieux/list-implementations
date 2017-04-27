@@ -50,3 +50,34 @@ class ArrayList
     return "[#{str[0..-3]}]"
   end
 end
+
+# assumptions
+
+
+# write a method that would belong inside the arraylist class
+#
+# has a storage array with some values in it
+# and it has a size
+#
+# write a method removeAll(num) removes all occurrences of a particular value that is passed to it as a parameter and returns the modified array
+#
+#
+# if you had 3,12,3,8
+#
+# call removeAll(3)
+#
+# get 12,8
+#
+# nums are not in numerical order
+# must preserve original order of numbers
+# if list is empty or num is not found, return original list
+
+# def removeAll(num)
+#   return @storage if !@storage.include?(num) || @storage.size == 0
+#   @size.times do |i|
+#     if @storage[i] == num
+#       @
+#   end
+#
+#
+# end
